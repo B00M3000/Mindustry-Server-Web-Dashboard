@@ -1,0 +1,25 @@
+doctype html
+
+head 
+  link(rel='stylesheet' href='/css/server.css' type='text/css')
+body
+  div#container
+    div#head-container
+      h1#name #{name}
+      p#ip Address: #{address}
+    div#map-container
+      h2 Current Map
+      h3#map-name
+      h4#map-author
+    div#chat-container
+      h2 Live Chat
+      div#chat.scroll
+    div#player-list-container
+      h2 Player List
+      div#player-list.scroll
+    div#events-container
+      h2 Events
+      div#events.scroll
+  script(src="/socket.io/socket.io.js")
+  script(src="/js/server.js")
+      

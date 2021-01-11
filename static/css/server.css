@@ -1,0 +1,56 @@
+#container {
+  margin: 5% 10%;
+  padding: 5px;
+  background: grey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#head-container {
+  margin: 2px;
+  padding: 5px;
+  background: darkgray;
+  border-radius: 5px;
+}
+
+#chat-container {
+  margin: 2px;
+  padding: 5px;
+  background: darkgrey;
+  border-radius: 5px;
+}
+
+#chat {
+  margin: 2px;
+  padding: 5px;
+  background: lightblue;
+  border-radius: 5px;
+  height: 200px;
+}
+
+#player-list-container {
+  margin: 2px;
+  padding: 5px;
+  background: darkgrey;
+  border-radius: 5px;
+}
+
+#events-container {
+  margin: 2px;
+  padding: 5px;
+  background: darkgrey;
+  border-radius: 5px;
+}
+
+#map-container {
+  margin: 2px;
+  padding: 5px;
+  background: darkgrey;
+  border-radius: 5px;
+}
+
+div.scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
